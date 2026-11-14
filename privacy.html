@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy policy — NAS Work Drive Sync</title>
+<style>body{max-width:48rem;margin:4rem auto;padding:0 1.5rem;font:18px/1.65 system-ui,sans-serif;color:#202124}a{color:#175cd3}h2{font-size:1.25em;margin-top:2rem}</style>
+<main>
+<h1>Privacy policy</h1>
+<p>NAS Work Drive Sync · Updated November 15, 2026</p>
+<p>This is a personal synchronization application operated by its owner. It uses rclone to transfer selected files between the owner's NAS and the Google Drive account explicitly authorized by that owner.</p>
+<h2>Google Drive access</h2>
+<p>The application requests permission to see, create, edit, and delete Google Drive files. Google grants this permission at account level. The synchronization configuration restricts normal file operations to the selected work folder and its recovery history. Separate, small test folders may be used to verify synchronization.</p>
+<p>File contents and metadata, including names, paths, sizes, modification times, and available checksums, are processed as needed to find changes, synchronize files, detect conflicts, and keep recovery copies. Changes and deletions can propagate between the selected locations.</p>
+<h2>Storage and transfer</h2>
+<p>Files are transferred over HTTPS to or from Google Drive and stored on the owner's devices and authorized Drive account. OAuth credentials and synchronization state are kept in restricted configuration files on the owner's devices. Operational logs and recovery copies remain under the owner's control.</p>
+<p>This website does not receive files or OAuth credentials. The synchronization utility has no separate application-provider cloud backend, and does not sell file data or use it for advertising. Google Drive and any network services selected by the owner remain subject to their respective policies.</p>
+<h2>Retention and control</h2>
+<p>The owner controls the synchronized folders, recovery history, and logs. Recovery copies are retained until the owner removes them. Revoking Google authorization stops future authorized access; it does not automatically remove existing file copies, history, or local configuration.</p>
+<p>Access can be revoked through <a href="https://myaccount.google.com/connections">Google Account connections</a>. The owner can also stop the NAS synchronization job and remove its stored credentials.</p>
+<h2>Contact</h2>
+<p>For questions about this personal application, contact its owner through the <a href="https://github.com/XingjianTian">maintainer's GitHub profile</a>.</p>
+<p><a href="index.html">Application home</a></p>
+</main>
+</html>
